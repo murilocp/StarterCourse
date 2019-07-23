@@ -1,10 +1,12 @@
 import { createStackNavigator } from 'react-navigation';
 
 import Main from './pages/main';
+import Product from './pages/product';
 
 //com isso ele entende que a primeira página é o Main;
 export default createStackNavigator({
-    Main
+    Main,
+    Product
 }, {
     navigationOptions: {
         headerStyle: {
